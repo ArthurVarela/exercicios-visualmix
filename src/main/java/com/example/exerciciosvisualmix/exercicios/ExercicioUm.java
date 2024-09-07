@@ -2,6 +2,7 @@ package com.example.exerciciosvisualmix.exercicios;
 
 import java.util.Scanner;
 
+// TODO: Método main não consegue ler frases, apenas palavras.
 public class ExercicioUm {
     public static void main(String[] args) {
 
@@ -16,10 +17,7 @@ public class ExercicioUm {
 
         String wordReversed = new StringBuilder(word).reverse().toString();
 
-        if (word.equals(wordReversed)) {
-            return true;
-        } else {
-            return false;
-        }
+        // Criar um if e else para retornar true ou false pode ser considerado redundante.
+        return word.equals(wordReversed);
     }
 }
