@@ -1,5 +1,6 @@
 package com.example.exerciciosvisualmix.exercicios;
 
+// Certinho.
 public class ExercicioDois {
 
     public static void main(String[] args) {

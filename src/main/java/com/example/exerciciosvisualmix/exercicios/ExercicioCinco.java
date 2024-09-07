@@ -4,6 +4,7 @@ package com.example.exerciciosvisualmix.exercicios;
 import java.util.ArrayList;
 import java.util.List;
 
+// Ficou muito bom, certinho!!
 interface Shape {
     double getArea();
 

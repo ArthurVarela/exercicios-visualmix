@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class AddressController {
 
-
+    // TODO: Poderia ser injetado via construtor para facilitar a escrita de testes. Nos testes poderia ser passado um mock.
     private final AddressService apiViaCep = new AddressService();
 
     @Value("${token.security}")
